@@ -32,8 +32,8 @@ RUN \
     apt-get update \
     \
     && apt-get install -y --no-install-recommends \
-    jq=1.6-2.1 \
-    xz-utils=5.4.1-1 \
+    jq \
+    xz-utils \
     \
     && c_rehash \
     \
